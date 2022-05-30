@@ -64,7 +64,6 @@ var isPalindrome = function (head) {
     cur = cur.next;
     newNode = newNode.next;
   }
-
   return true;
 };
 
