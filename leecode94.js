@@ -17,6 +17,7 @@ var inorderTraversal = function (root) {
     val !== null && result.push(val);
     right && sort(right, result);
   }
+
   root && sort(root, result);
   return result;
 };
