@@ -20,6 +20,5 @@ var inorderTraversal = function (root) {
   root && sort(root, result);
   return result;
 };
-
 // NOTE Morris 中序遍历
 var inorderTraversalMorris = function (root) {};
